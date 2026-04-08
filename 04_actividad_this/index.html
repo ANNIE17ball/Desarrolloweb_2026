@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThisEvent</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <span class="titulo fuenteUno">Inputs</span>
+    </nav>
+
+    <div class="container">
+        <form onsubmit="return oka(this)">
+            <input class="fuenteUno" type="text" name="name" placeholder="Nombre" onfocus="borde(this)" onblur="salir(this)">
+
+            <input class="fuenteUno" type="text" name="age" placeholder="Edad" onfocus="borde(this)" onblur="salir(this)">
+
+            <p id="mensaje"></p>
+            <button class="fuenteDos" type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="static/js/script.js"></script>
+</body>
+
+</html>

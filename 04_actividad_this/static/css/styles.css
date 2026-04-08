@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #539fa2;
+    --color2: #72b1a4;
+    --color3: #abccb1;
+    --color4: #c4dbb4;
+    --color5: #d4e2b6;
+}
+
+.fuenteUno {
+    font-family: "Pirata One", system-ui;
+}
+
+.fuenteDos {
+    font-family: "Macondo", cursive;
+}
+
+.nav-bar {
+    background-color: var(--color1);
+    color: var(--color5);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 20px;
+    border:2px dashed var(--color1);
+    background-color: var(--color5);
+    color: #539fa2;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 10px;
+}
