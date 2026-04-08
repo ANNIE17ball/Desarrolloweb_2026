@@ -21,5 +21,7 @@ function oka(formulario) {
 
     document.getElementById("mensaje").textContent =
         "Formulario enviado correctamente";
+
+    formulario.reset()
     return true;
 }
